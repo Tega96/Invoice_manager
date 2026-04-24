@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  /* Colors from figma*/
+  --color-primary: ;
+  --color-secondary: ;
+  --color-primary-dark: ;
+
+  /* Fonts */
+  --font-display: "Spartan", san-serif;
+  --font-sans: "Spartan", san-serif;
+
+  /* Border radius */
+  --radius-button: 8px;
+  --radius-card: 12px;
+
+  /*Shadow */
+  --shadow-card: ;
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary
+  }
+}
